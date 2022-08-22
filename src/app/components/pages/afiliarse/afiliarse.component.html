@@ -1,0 +1,82 @@
+<div class="box">
+    <h1><span class="texto-borde"> Afiliarse </span></h1>
+    <p>Para afiliarse, rellene el formulario a continuación. <br> Entraremos en contacto a la mayor brevedad posible.</p>
+</div>
+<div class="container">
+  <div class="boxIn">
+    <!-- Acá va el link del form -->
+    <form action="enviar.php" method="post">
+      <!-- Name input -->
+      <div>
+        <input
+          type="text"
+          id="form4Example1"
+          name="name"
+          class="form-control"
+          placeholder="Nombre"
+        />
+        <label class="form-label" for="form4Example1"></label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline">
+        <input
+          type="email"
+          id="form4Example2"
+          name="mail"
+          class="form-control"
+          placeholder="Email"
+          required
+        />
+        <label class="form-label" for="form4Example2"></label>
+      </div>
+
+      <!-- Cel input -->
+      <div class="form-outline mb-4">
+        <input
+          type="text"
+          id="form4Example1"
+          name="phone"
+          class="form-control"
+          placeholder="Celular"
+        />
+        <label class="form-label" for="form4Example1"></label>
+      </div>
+
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea
+          class="form-control"
+          id="form4Example3"
+          name="message"
+          rows="4"
+          placeholder="Mensaje"
+        ></textarea>
+        <label class="form-label" for="form4Example3"></label>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input
+          class="form-check-input me-2"
+          type="checkbox"
+          value=""
+          id="form4Example4"
+          checked
+        />
+        <label class="form-check-label" for="form4Example4">
+          Send me a copy of this message
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button
+        type="submit"
+        class="btn btn-primary btn-block mb-4"
+        target="_blank"
+      >
+        Enviar
+      </button>
+    </form>
+  </div>
+</div>
