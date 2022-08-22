@@ -1,0 +1,31 @@
+.d-flex {
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+  .card {
+    overflow: hidden;
+    margin: 15px;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    padding: 20 20px;
+    align-content: center;
+    border: 5px solid #150060;
+    border-radius: 20px;
+    background-color: #1500602d;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+  }
+
+  .card-title{
+    color: #990000;
+  }
+
+  .card-header{
+    color: #ff0000;
+  }
+
+  .card-text{
+    color: rgb(170, 170, 170);
+  }
