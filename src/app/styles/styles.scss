@@ -1,19 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 .container {
+  padding: auto;
   background-color: black;
+  margin-top: 2vw;
 }
 
 .box {
   margin: auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.h1{
+  justify-content: center;
+}
+p{
+  padding: 3vw;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body {
+
   color: #222;
   background: #fff;
   font: 100% system-ui;
   place-content: center;
-  background-image: "/assets/FL1.gif";
+}
+.nav-link{
+  color:rgb(226, 226, 226);
+}
+
+.offcanvas-header{
+
+  background-color: black;
+}
+
+.offcanvas-body{
+  background-color: #000;
+  background-image: url(/assets/a4fb1ab272da13569b081edaea1b2586_w200.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
@@ -30,6 +59,12 @@ a {
     color: #809fff;
   }
 }
+@media (max-width: 319) {
+  .container{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
 body.dark-theme img {
   filter: brightness(0.8) contrast(1.2);
 }
@@ -37,9 +72,18 @@ body.dark-theme img {
   fill: #000;
   stroke: aliceblue;
 }
-.containerm {
-  width: 50%;
-}
 .navbar{
-  display: fixed;
+  background-image: url(https://qtxasset.com/quartz/qcloud4/media/image/sensorsmag/1545150337/MARKET_1.gif?VersionId=.xGU2OlcYhmaN.Y4GVgIPSlQo53iBs.E);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.navbar-brand{
+  color: #fff;
+  font-family: times-new;
+}
+
+.body-img{
+ max-width: 100%;
 }
