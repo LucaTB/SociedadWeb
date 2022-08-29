@@ -1,25 +1,29 @@
-<div class="container">
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src='/assets/unnamed.ico' alt="" width="75" height="75">
-            <span class="navbar-text">
-                La Sociedad de las Sombras
-            </span>
-          </a>
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown"></div>
-          <div class="btn-group" role="group">
-            <button id="btnGroupDrop1" type="button" class="btn btn-default" data-bs-toggle="dropdown" aria-expanded="false">
-              La Sociedad de las Sombras
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-              <li><a class="dropdown-item" href="/home">Home</a></li>
-              <li><a class="dropdown-item" href="/fechas">Próximas fechas</a></li>
-              <li><a class="dropdown-item" href="/bands">Bandas</a></li>
-              <li><a class="dropdown-item" href="/who">Quienes somos</a></li>
-              <li><a class="dropdown-item" href="/afiliarse">Afiliación</a></li>
+<nav class="navbar navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/home">La Sociedad de las Sombras <br>Uruguay</a>
+    <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="/home"><i class="fa fa-home" aria-hidden="true"></i>  Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/bands"><i class="fa fa-users" aria-hidden="true"></i>  Bandas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/fechas"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>  Próximas fechas</a>
+          </li>
+            <li><a class="nav-link" href="/who"><i class="fa fa-institution" aria-hidden="true"></i>  Sobre nosotros</a></li>
+              <li><a class="nav-link" href="/afiliarse"><i class="fa fa-user-plus" aria-hidden="true"></i>  Afiliarse</a></li>
             </ul>
-          </div>
-          </div>
-      </nav>
-</div>
+      </div>
+    </div>
+  </div>
+</nav>
